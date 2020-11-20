@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Экспорт внутреннего файла во внешний и обратно</string>
+    <string name="edTextLogin">Login</string>
+    <string name="btnLogin">LOGIN</string>
+    <string name="edTextPassword">Password</string>
+    <string name="btnRegistration">REGISTRATION</string>
+    <string name="incorrectData">Произведен некорректный ввод</string>
+    <string name="checkData">Проверьте все ли данные введены</string>
+    <string name="userRegistered">Пользователь зарегистрирован</string>
+    <string name="successful_authorization">Успешная авторизация</string>
+    <string name="unsuccessful_authorization">Введен неправильный логин или пароль</string>
+</resources>

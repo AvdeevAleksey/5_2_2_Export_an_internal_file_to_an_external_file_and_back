@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "5_2_2_Export_an_internal_file_to_an_external_file_and_back"

@@ -9,4 +9,7 @@
     <string name="userRegistered">Пользователь зарегистрирован</string>
     <string name="successful_authorization">Успешная авторизация</string>
     <string name="unsuccessful_authorization">Введен неправильный логин или пароль</string>
+    <string name="changeStorage">Хранить логин во внешнем хранилище</string>
+    <string name="file_save_error">Ошибка сохранения d файл %s!</string>
+    <string name="file_saved">В файл %s данные сохранены</string>
 </resources>

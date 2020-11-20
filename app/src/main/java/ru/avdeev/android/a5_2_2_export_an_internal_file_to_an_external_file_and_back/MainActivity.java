@@ -73,18 +73,15 @@ public class MainActivity extends AppCompatActivity {
         BufferedReader reader = null;
         try {
             reader = new BufferedReader(new InputStreamReader(openFileInput(FILE_NAME)));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
+        try {
             return reader.readLine();
         } catch (IOException e) {
             e.printStackTrace();
-            showMyMessage(getString(R.string.checkData),this);
-            return null;
-        }finally {
-            try {
-                reader.close();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
         }
+        return null;
     }
 
     private void saveIntoInternalStorage(String[] loginPassText) {
